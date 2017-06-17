@@ -1,0 +1,14 @@
+{
+    "development": {
+        "MONGO_URI": "mongodb://localhost/ecommerce_developmentdb"
+    },
+    "staging": {
+        "MONGO_URI": "mongodb://localhost/ecommerce_stagingdb"
+    },
+    "production": {
+        "MONGO_URI": "mongodb://localhost/ecommerce_db"
+    },
+    "default": {
+        "MONGO_URI": "mongodb://localhost/ecommerce_testdb"
+    }
+}
