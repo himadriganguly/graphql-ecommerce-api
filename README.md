@@ -14,8 +14,8 @@ This is a sample appliction using GraphQL for an ecommerce application.
 
 ### Usage
     1. Development
-        ```
-        npm install        
-        NODE_ENV=development npm start
-        open http://localhost:3000
-        ```
+    ```
+    npm install        
+    NODE_ENV=development npm start
+    open http://localhost:3000
+    ```
