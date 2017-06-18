@@ -1,0 +1,24 @@
+db.logins.insert({
+  emailId: "test@example.com",
+  password: "test123",
+  createdAt: new Date().getTime(),
+  updatedAt: null,
+});
+
+db.productcategories.insert({
+  categoryName: "Women",
+  categoryImgUrl: "http://lorempixel.com/400/200/",
+  categoryIconUrl: null,
+  parentCategoryId: null,
+  createdAt: new Date().getTime(),
+  updatedAt: null,
+});
+
+db.productcategories.insert({
+  categoryName: "Men",
+  categoryImgUrl: "http://lorempixel.com/400/200/",
+  categoryIconUrl: null,
+  parentCategoryId: null,
+  createdAt: new Date().getTime(),
+  updatedAt: null,
+});
