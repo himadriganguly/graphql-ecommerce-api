@@ -1,7 +1,7 @@
 Sample Ecommerce API Using GraphQL
 ==================================
 
-This is a sample API appliction using GraphQL for an ecommerce application.
+This is a sample API application using GraphQL for an ecommerce application.
 
 ## Requirements
 
