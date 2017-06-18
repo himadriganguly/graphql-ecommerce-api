@@ -2,12 +2,12 @@
 
 const _ = require('lodash');
 
-const userMutationResolver = require('./mutation/user');
-const userQueryResolver = require('./query/user');
+const mutationResolver = require('./mutation/mutation');
+const queryResolver = require('./query/query');
 
 const resolvers = _.merge(
-    userQueryResolver,
-    userMutationResolver
+    queryResolver,
+    mutationResolver
   );
 
 module.exports = resolvers;

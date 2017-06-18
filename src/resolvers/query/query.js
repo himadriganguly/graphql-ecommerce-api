@@ -6,7 +6,7 @@ const productQueryConnector = require('../../connectors/main').productQueryConne
 // Import errors
 const queryError = require('../../errors/main').queryError;
 
-const UserResolver = {
+const queryResolver = {
   RootQuery: {
     me(root, args, context) {
       return {
@@ -30,4 +30,4 @@ const UserResolver = {
   },
 };
 
-module.exports = UserResolver;
+module.exports = queryResolver;

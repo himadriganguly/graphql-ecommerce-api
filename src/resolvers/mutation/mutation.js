@@ -6,7 +6,7 @@ const userAuthMutationConnector = require('../../connectors/main').userAuthMutat
 // Import errors
 const mutationError = require('../../errors/main').mutationError;
 
-const userResolver = {
+const mutationResolver = {
   RootMutation: {
     userLogin(_, args) {
       var loginPromise = userAuthMutationConnector.userAuth(args.emailId, args.password);
@@ -39,4 +39,4 @@ const userResolver = {
   },
 };
 
-module.exports = userResolver;
+module.exports = mutationResolver;
