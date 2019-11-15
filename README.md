@@ -17,5 +17,5 @@ This is a sample API application using GraphQL for an ecommerce application.
 ```
 npm install
 NODE_ENV=development npm start
-open http://localhost:3000
+open http://localhost:9999
 ```
