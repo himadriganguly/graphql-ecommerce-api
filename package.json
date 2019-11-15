@@ -26,7 +26,8 @@
     "graphql-server-express": "^0.8.5",
     "graphql-tools": "^1.0.0",
     "lodash": "^4.17.4",
-    "mongoose": "^4.10.6",
+    "mongoose": "^5.7.11",
+    "nodemon": "^1.19.4",
     "object-assign": "^4.1.1"
   }
 }
